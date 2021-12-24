@@ -1,6 +1,8 @@
 
  
+
 ![image info](assets/img/foto.jpg)
+
 
 # Inga Katkova
 
@@ -34,9 +36,11 @@ function multiply(a, b){
 - My CV project
 
 ### Courses
+
 - ![image info](assets/img/logo.png) ![image info](assets/img/HTML.png)
 
 - ![image info](assets/img/logo.png) ![image info](assets/img/CSS.png)
+
 
 ### Language
 - Russian - native
