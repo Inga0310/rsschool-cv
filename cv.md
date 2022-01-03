@@ -1,6 +1,7 @@
 
  
 
+
 ![image info](assets/img/foto.jpg)
 
 
@@ -36,6 +37,7 @@ function multiply(a, b){
 - My CV project
 
 ### Courses
+
 
 - ![image info](assets/img/logo.png) ![image info](assets/img/HTML.png)
 
