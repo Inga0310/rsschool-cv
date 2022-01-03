@@ -1,4 +1,194 @@
-h1 {
-    color:red;
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, code, img,
+b, u, i, center, ol, ul, li, article, aside, figcaption, footer, header, menu, nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
+footer, header, nav, section, h1, div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+    position: fixed;
+    z-index: 2;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 70px;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-size 1s ease,
+    color 1s ease;
+}
+
+.nav-link:hover {
+    color: orange;
+    font-size: 1.3em;
+}
+
+/*MAIN */
+
+.wrapper main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/*CARD*/
+@media (max-width: 414px) {
+    .card:first-child {
+        padding-top: 135px;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 481px;
+    flex-grow: 1;
+    height: 100%;
+    padding-top: 112px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-header {
+    font-size: 26px;
+    font-weight: 700;
+    align-self: center;
+    color: sandybrown;
+    margin-bottom: 10px;
+}
+
+.code-example {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.wrapper-my-name {
+    display: flex;
+}
+
+.my-name {
+    color: sandybrown;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 100px;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 200px 150px 0 150px;
+    flex-basis: 900px
+}
+
+.photo {
+    max-width: 250px;
+    margin-right: 20px;
+}
+
+.code-example {
+    max-width: 100%;
+}
+
+.list-header {
+    color: burlywood;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 8px 0;
+}
+
+.list-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
+    transition: font-size 0.5s ease;
+}
+
+.project-link:hover {
+    color: orange;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: antiquewhite;
+    min-height: 200px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.wrapper-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.rs-logo, .github-logo {
+    margin: 30px;
+    width: 100px;
+    transition: width 1s ease;
+}
+
+.rs-logo:hover, .github-logo:hover {
+    width: 150px;
+}
+
+.year {
+    font-size: 60px;
+    font-weight: 900;
+}
