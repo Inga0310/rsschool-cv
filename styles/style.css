@@ -39,7 +39,6 @@ body {
     margin: 0 auto;
 }
 
-/*HEADER*/
 
 .header {
     position: fixed;
@@ -75,7 +74,6 @@ body {
     font-size: 1.3em;
 }
 
-/*MAIN */
 
 .wrapper main {
     display: flex;
@@ -87,7 +85,7 @@ ol, ul {
     list-style: none;
 }
 
-/*CARD*/
+
 @media (max-width: 414px) {
     .card:first-child {
         padding-top: 135px;
@@ -166,7 +164,6 @@ ol, ul {
     color: orange;
 }
 
-/*FOOTER*/
 
 .footer {
     background-color: antiquewhite;
