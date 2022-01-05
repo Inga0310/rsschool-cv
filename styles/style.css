@@ -229,7 +229,7 @@ h1 {
 =======
 }
 
-footer, header, nav, section, h1, div {
+footer, header, nav, section, h1, h3, div {
     display: block;
 }
 
@@ -249,6 +249,24 @@ body {
     font-size: 16px;
     line-height: 2em;
 }
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+li {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+#about-me {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+
+
+
 
 .wrapper {
     max-width: 1440px;
@@ -323,9 +341,10 @@ ol, ul {
 .card-header {
     font-size: 26px;
     font-weight: 700;
-    align-self: center;
+    align-self: start;
     color: sandybrown;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 .code-example {
@@ -337,7 +356,7 @@ ol, ul {
     display: flex;
 }
 
-.my-name {
+.my-name{
     color: sandybrown;
     font-size: 50px;
     font-weight: 900;
@@ -347,6 +366,13 @@ ol, ul {
     margin: 200px 150px 0 150px;
     flex-basis: 900px
 }
+
+h3 {
+    font-size: 30px;
+    margin: 0 0 0 30px;
+}
+
+
 
 .photo {
     max-width: 250px;
@@ -407,7 +433,7 @@ ol, ul {
 }
 
 .year {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 900;
 }
 >>>>>>> 294ea0b (feat: create a CV using HTML and CSS)
